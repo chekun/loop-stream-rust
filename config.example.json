@@ -1,0 +1,28 @@
+{
+  "ffmpeg": "ffmpeg",
+  "ffprob": "ffprobe",
+  "stage": {
+    "image": "/Users/chekun/Downloads/playlist/bg.jpg",
+    "width": "720",
+    "height": "1280"
+  },
+  "input": {
+    "rectangle": ["40", "400", "640", "480"],
+    "episodes": [
+      "/Users/chekun/Downloads/playlist/v/001买东西记.flv",
+      "/Users/chekun/Downloads/playlist/v/002妈妈早上忙死了.flv",
+      "/Users/chekun/Downloads/playlist/v/003画画记.flv"
+    ],
+    "title": {
+      "font": "/Users/chekun/Downloads/playlist/sarasa-regular.ttc",
+			"prefix": "正在播放：",
+			"x": "w-tw-50",
+			"y": "430",
+			"color": "white",
+			"size": "28"
+    }
+  },
+  "output": {
+    "stream_url": "rtmp://10.211.55.5/live/livestream"
+  }
+}
