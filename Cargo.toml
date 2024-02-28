@@ -1,10 +1,11 @@
 [package]
 name = "loop-stream"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 license = "MIT"
 description = "A custom streaming tool for episodes base on ffmpeg tool."
 authors = ["chekun"]
+repository = "https://github.com/chekun/loop-stream-rust"
 
 [dependencies]
 serde = "1.0"
